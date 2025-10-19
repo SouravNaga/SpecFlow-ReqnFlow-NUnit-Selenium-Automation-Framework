@@ -19,7 +19,7 @@ namespace ReqnrollProject.StepDefinitions
         [Given("Open the url")]
         public void GivenOpenTheUrl()
         {
-            //driver =  new ChromeDriver();
+            //driver =  new ChromeDriver();g
             //driver.Manage().Window.Maximize();
             driver.Url = "https://practicetestautomation.com/practice-test-login/";
             common = new CommonPageMethod(driver);
