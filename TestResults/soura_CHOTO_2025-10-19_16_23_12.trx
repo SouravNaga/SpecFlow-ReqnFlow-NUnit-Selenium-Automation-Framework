@@ -1,0 +1,59 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<TestRun id="41d89f54-0fd8-4b56-b9f3-7b0498236b0d" name="soura@CHOTO 2025-10-19 16:23:12" runUser="CHOTO\soura" xmlns="http://microsoft.com/schemas/VisualStudio/TeamTest/2010">
+  <Times creation="2025-10-19T16:23:12.1094113+05:30" queuing="2025-10-19T16:23:12.1094115+05:30" start="2025-10-19T16:23:05.5671736+05:30" finish="2025-10-19T16:23:12.1120941+05:30" />
+  <TestSettings name="default" id="f260ed4a-ee0f-4b34-b58e-c521f02b062d">
+    <Deployment runDeploymentRoot="soura_CHOTO_2025-10-19_16_23_12" />
+  </TestSettings>
+  <Results>
+    <UnitTestResult executionId="2d8015d7-4557-4037-b0b7-642e69d82405" testId="5f8bb6dd-889d-6112-5cde-932437f3be6c" testName="AddTwoNumbers" computerName="CHOTO" duration="00:00:00.0293960" startTime="2025-10-19T16:23:11.9454663+05:30" endTime="2025-10-19T16:23:11.9748217+05:30" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="2d8015d7-4557-4037-b0b7-642e69d82405">
+      <Output>
+        <StdOut>Given the first number is 50&#xD;
+-&gt; done: CalculatorStepDefinitions.GivenTheFirstNumberIs(50) (0.0s)&#xD;
+And the second number is 70&#xD;
+-&gt; done: CalculatorStepDefinitions.GivenTheSecondNumberIs(70) (0.0s)&#xD;
+When the two numbers are added&#xD;
+-&gt; done: CalculatorStepDefinitions.WhenTheTwoNumbersAreAdded() (0.0s)&#xD;
+Then the result should be 120&#xD;
+result : 120&#xD;
+-&gt; done: CalculatorStepDefinitions.ThenTheResultShouldBe(120) (0.0s)</StdOut>
+      </Output>
+    </UnitTestResult>
+  </Results>
+  <TestDefinitions>
+    <UnitTest name="AddTwoNumbers" storage="c:\users\soura\source\repos\reqnrollproject\bin\debug\net8.0\reqnrollproject.dll" id="5f8bb6dd-889d-6112-5cde-932437f3be6c">
+      <Execution id="2d8015d7-4557-4037-b0b7-642e69d82405" />
+      <TestMethod codeBase="C:\Users\soura\source\repos\ReqnrollProject\bin\Debug\net8.0\ReqnrollProject.dll" adapterTypeName="executor://nunit3testexecutor/" className="ReqnrollProject.Features.CalculatorFeature" name="AddTwoNumbers" />
+    </UnitTest>
+  </TestDefinitions>
+  <TestEntries>
+    <TestEntry testId="5f8bb6dd-889d-6112-5cde-932437f3be6c" executionId="2d8015d7-4557-4037-b0b7-642e69d82405" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+  </TestEntries>
+  <TestLists>
+    <TestList name="Results Not in a List" id="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestList name="All Loaded Results" id="19431567-8539-422a-85d7-44ee4e166bda" />
+  </TestLists>
+  <ResultSummary outcome="Completed">
+    <Counters total="1" executed="1" passed="1" failed="0" error="0" timeout="0" aborted="0" inconclusive="0" passedButRunAborted="0" notRunnable="0" notExecuted="0" disconnected="0" warning="0" completed="0" inProgress="0" pending="0" />
+    <Output>
+      <StdOut>NUnit Adapter 4.5.0.0: Test execution started&#xD;
+Running all tests in C:\Users\soura\source\repos\ReqnrollProject\bin\Debug\net8.0\ReqnrollProject.dll&#xD;
+   NUnit3TestExecutor discovered 1 of 1 NUnit test cases using Current Discovery mode, Non-Explicit run&#xD;
+NUnit Adapter 4.5.0.0: Test execution complete&#xD;
+</StdOut>
+    </Output>
+    <RunInfos>
+      <RunInfo computerName="CHOTO" outcome="Warning" timestamp="2025-10-19T16:23:12.0715029+05:30">
+        <Text>Given the first number is 50&#xD;
+-&gt; done: CalculatorStepDefinitions.GivenTheFirstNumberIs(50) (0.0s)&#xD;
+And the second number is 70&#xD;
+-&gt; done: CalculatorStepDefinitions.GivenTheSecondNumberIs(70) (0.0s)&#xD;
+When the two numbers are added&#xD;
+-&gt; done: CalculatorStepDefinitions.WhenTheTwoNumbersAreAdded() (0.0s)&#xD;
+Then the result should be 120&#xD;
+result : 120&#xD;
+-&gt; done: CalculatorStepDefinitions.ThenTheResultShouldBe(120) (0.0s)&#xD;
+</Text>
+      </RunInfo>
+    </RunInfos>
+  </ResultSummary>
+</TestRun>
