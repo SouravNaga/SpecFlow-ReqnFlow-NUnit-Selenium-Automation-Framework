@@ -9,11 +9,13 @@
       "ReqnrollProject/1.0.0": {
         "dependencies": {
           "DotNetSeleniumExtras.PageObjects": "3.11.0",
+          "DotNetSeleniumExtras.PageObjects.Core": "4.14.1",
           "DotNetSeleniumExtras.WaitHelpers": "3.11.0",
           "ExtentReports": "4.1.0",
           "Microsoft.NET.Test.Sdk": "17.10.0",
           "NUnit3TestAdapter": "4.5.0",
           "Reqnroll.NUnit": "2.2.1",
+          "Selenium.Community.PageObjects": "1.0.0",
           "Selenium.Firefox.WebDriver": "0.27.0",
           "Selenium.Support": "4.37.0",
           "Selenium.WebDriver": "4.37.0",
@@ -22,7 +24,7 @@
           "SeleniumExtras.WaitHelpers": "1.0.2",
           "System.IO": "4.3.0",
           "System.IO.FileSystem.Primitives": "4.3.0",
-          "NUnit": "3.14.0"
+          "NUnit": "3.13.3"
         },
         "runtime": {
           "ReqnrollProject.dll": {}
@@ -50,11 +52,16 @@
       "DotNetSeleniumExtras.PageObjects/3.11.0": {
         "dependencies": {
           "Selenium.WebDriver": "4.37.0"
+        }
+      },
+      "DotNetSeleniumExtras.PageObjects.Core/4.14.1": {
+        "dependencies": {
+          "Selenium.WebDriver": "4.37.0"
         },
         "runtime": {
-          "lib/netstandard2.0/SeleniumExtras.PageObjects.dll": {
-            "assemblyVersion": "3.11.0.0",
-            "fileVersion": "3.11.0.0"
+          "lib/net6.0/SeleniumExtras.PageObjects.dll": {
+            "assemblyVersion": "4.14.1.0",
+            "fileVersion": "4.14.1.0"
           }
         }
       },
@@ -1229,14 +1236,14 @@
           }
         }
       },
-      "NUnit/3.14.0": {
+      "NUnit/3.13.3": {
         "dependencies": {
           "NETStandard.Library": "2.0.0"
         },
         "runtime": {
           "lib/netstandard2.0/nunit.framework.dll": {
-            "assemblyVersion": "3.14.0.0",
-            "fileVersion": "3.14.0.0"
+            "assemblyVersion": "3.13.3.0",
+            "fileVersion": "3.13.3.0"
           }
         }
       },
@@ -1275,7 +1282,7 @@
       },
       "Reqnroll.NUnit/2.2.1": {
         "dependencies": {
-          "NUnit": "3.14.0",
+          "NUnit": "3.13.3",
           "Reqnroll": "2.2.1",
           "Reqnroll.Tools.MsBuild.Generation": "2.2.1"
         },
@@ -1345,6 +1352,18 @@
       "runtime.ubuntu.14.04-x64.runtime.native.System.Security.Cryptography.OpenSsl/4.3.2": {},
       "runtime.ubuntu.16.04-x64.runtime.native.System.Security.Cryptography.OpenSsl/4.3.2": {},
       "runtime.ubuntu.16.10-x64.runtime.native.System.Security.Cryptography.OpenSsl/4.3.2": {},
+      "Selenium.Community.PageObjects/1.0.0": {
+        "dependencies": {
+          "Selenium.WebDriver": "4.37.0",
+          "System.Reflection.DispatchProxy": "4.5.1"
+        },
+        "runtime": {
+          "lib/netstandard2.0/Selenium.Community.PageObjects.dll": {
+            "assemblyVersion": "1.0.0.0",
+            "fileVersion": "1.0.0.0"
+          }
+        }
+      },
       "Selenium.Firefox.WebDriver/0.27.0": {},
       "Selenium.Support/4.37.0": {
         "dependencies": {
@@ -1816,6 +1835,7 @@
           "System.Runtime": "4.3.0"
         }
       },
+      "System.Reflection.DispatchProxy/4.5.1": {},
       "System.Reflection.Emit/4.3.0": {
         "dependencies": {
           "System.IO": "4.3.0",
@@ -2265,6 +2285,13 @@
       "sha512": "sha512-DJCLQ3beq1fzqpeQ5jTZwDqmzbOD2Xxsb/jCyShYam88CNwGGn5aBBqu4LVSj0sy0Ai76OauQQncYlC48VvQUQ==",
       "path": "dotnetseleniumextras.pageobjects/3.11.0",
       "hashPath": "dotnetseleniumextras.pageobjects.3.11.0.nupkg.sha512"
+    },
+    "DotNetSeleniumExtras.PageObjects.Core/4.14.1": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-LwKjGyJKwaGO0pmPaWx0kOtJoDiKKYMpundXF3AwqqBcOI86gumvUpjqq/giL8zatUXdecL89wb0U/KZh03p7g==",
+      "path": "dotnetseleniumextras.pageobjects.core/4.14.1",
+      "hashPath": "dotnetseleniumextras.pageobjects.core.4.14.1.nupkg.sha512"
     },
     "DotNetSeleniumExtras.WaitHelpers/3.11.0": {
       "type": "package",
@@ -2798,12 +2825,12 @@
       "path": "newtonsoft.json/13.0.1",
       "hashPath": "newtonsoft.json.13.0.1.nupkg.sha512"
     },
-    "NUnit/3.14.0": {
+    "NUnit/3.13.3": {
       "type": "package",
       "serviceable": true,
-      "sha512": "sha512-R7iPwD7kbOaP3o2zldWJbWeMQAvDKD0uld27QvA3PAALl1unl7x0v2J7eGiJOYjimV/BuGT4VJmr45RjS7z4LA==",
-      "path": "nunit/3.14.0",
-      "hashPath": "nunit.3.14.0.nupkg.sha512"
+      "sha512": "sha512-KNPDpls6EfHwC3+nnA67fh5wpxeLb3VLFAfLxrug6JMYDLHH6InaQIWR7Sc3y75d/9IKzMksH/gi08W7XWbmnQ==",
+      "path": "nunit/3.13.3",
+      "hashPath": "nunit.3.13.3.nupkg.sha512"
     },
     "NUnit3TestAdapter/4.5.0": {
       "type": "package",
@@ -2958,6 +2985,13 @@
       "sha512": "sha512-leXiwfiIkW7Gmn7cgnNcdtNAU70SjmKW3jxGj1iKHOvdn0zRWsgv/l2OJUO5zdGdiv2VRFnAsxxhDgMzofPdWg==",
       "path": "runtime.ubuntu.16.10-x64.runtime.native.system.security.cryptography.openssl/4.3.2",
       "hashPath": "runtime.ubuntu.16.10-x64.runtime.native.system.security.cryptography.openssl.4.3.2.nupkg.sha512"
+    },
+    "Selenium.Community.PageObjects/1.0.0": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-E1JNFGZSeE+y6Gs90KjsgGCzu7z5ALU3d+HaKeMmPbhJzxo6BasVpQlZ71bTiwkqH+gtOLtujpIHGM3EWxzw8Q==",
+      "path": "selenium.community.pageobjects/1.0.0",
+      "hashPath": "selenium.community.pageobjects.1.0.0.nupkg.sha512"
     },
     "Selenium.Firefox.WebDriver/0.27.0": {
       "type": "package",
@@ -3294,6 +3328,13 @@
       "sha512": "sha512-KMiAFoW7MfJGa9nDFNcfu+FpEdiHpWgTcS2HdMpDvt9saK3y/G4GwprPyzqjFH9NTaGPQeWNHU+iDlDILj96aQ==",
       "path": "system.reflection/4.3.0",
       "hashPath": "system.reflection.4.3.0.nupkg.sha512"
+    },
+    "System.Reflection.DispatchProxy/4.5.1": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-FsYDYPmR2coa1BCo9mquY5A1hy5RSQq7ZJH3qaMoy3lCTUMZvB4lEFqX1i4XQINVjda4e7p2PN1DHk8AV3wfXw==",
+      "path": "system.reflection.dispatchproxy/4.5.1",
+      "hashPath": "system.reflection.dispatchproxy.4.5.1.nupkg.sha512"
     },
     "System.Reflection.Emit/4.3.0": {
       "type": "package",

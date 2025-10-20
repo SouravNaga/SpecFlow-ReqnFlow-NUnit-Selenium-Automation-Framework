@@ -15,7 +15,11 @@ namespace OrangeHRM_Automation.Pages
         {
             this.driver = driver;
         }
-
+        public void HighlightElement(IWebDriver driver, IWebElement element)
+        {
+            IJavaScriptExecutor js = (IJavaScriptExecutor)driver;
+            js.ExecuteScript("arguments[0].style.border='5px solid red'", element);
+        }
         // Waits until the specified element is visible on the page
         public void WaitForVisible(IWebElement locator, int timeout = 30)
         {
