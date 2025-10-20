@@ -54,6 +54,10 @@
               "target": "Package",
               "version": "[3.11.0, )"
             },
+            "DotNetSeleniumExtras.PageObjects.Core": {
+              "target": "Package",
+              "version": "[4.14.1, )"
+            },
             "DotNetSeleniumExtras.WaitHelpers": {
               "target": "Package",
               "version": "[3.11.0, )"
@@ -73,6 +77,10 @@
             "Reqnroll.NUnit": {
               "target": "Package",
               "version": "[2.2.1, )"
+            },
+            "Selenium.Community.PageObjects": {
+              "target": "Package",
+              "version": "[1.0.0, )"
             },
             "Selenium.Firefox.WebDriver": {
               "target": "Package",
@@ -108,7 +116,7 @@
             },
             "nunit": {
               "target": "Package",
-              "version": "[3.14.0, )"
+              "version": "[3.13.3, )"
             }
           },
           "imports": [

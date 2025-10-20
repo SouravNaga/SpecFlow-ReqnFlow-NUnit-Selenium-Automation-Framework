@@ -39,6 +39,18 @@
           "lib/netstandard2.0/SeleniumExtras.PageObjects.dll": {}
         }
       },
+      "DotNetSeleniumExtras.PageObjects.Core/4.14.1": {
+        "type": "package",
+        "dependencies": {
+          "Selenium.WebDriver": "4.14.1"
+        },
+        "compile": {
+          "lib/net6.0/SeleniumExtras.PageObjects.dll": {}
+        },
+        "runtime": {
+          "lib/net6.0/SeleniumExtras.PageObjects.dll": {}
+        }
+      },
       "DotNetSeleniumExtras.WaitHelpers/3.11.0": {
         "type": "package",
         "dependencies": {
@@ -1616,7 +1628,7 @@
           }
         }
       },
-      "NUnit/3.14.0": {
+      "NUnit/3.13.3": {
         "type": "package",
         "dependencies": {
           "NETStandard.Library": "2.0.0"
@@ -1894,6 +1906,23 @@
           "runtimes/ubuntu.16.10-x64/native/System.Security.Cryptography.Native.OpenSsl.so": {
             "assetType": "native",
             "rid": "ubuntu.16.10-x64"
+          }
+        }
+      },
+      "Selenium.Community.PageObjects/1.0.0": {
+        "type": "package",
+        "dependencies": {
+          "Selenium.WebDriver": "3.141.0",
+          "System.Reflection.DispatchProxy": "4.5.1"
+        },
+        "compile": {
+          "lib/netstandard2.0/Selenium.Community.PageObjects.dll": {
+            "related": ".xml"
+          }
+        },
+        "runtime": {
+          "lib/netstandard2.0/Selenium.Community.PageObjects.dll": {
+            "related": ".xml"
           }
         }
       },
@@ -2773,6 +2802,17 @@
           "ref/netstandard1.5/System.Reflection.dll": {
             "related": ".xml"
           }
+        }
+      },
+      "System.Reflection.DispatchProxy/4.5.1": {
+        "type": "package",
+        "compile": {
+          "ref/netstandard2.0/System.Reflection.DispatchProxy.dll": {
+            "related": ".xml"
+          }
+        },
+        "runtime": {
+          "lib/netcoreapp2.0/System.Reflection.DispatchProxy.dll": {}
         }
       },
       "System.Reflection.Emit/4.3.0": {
@@ -3694,6 +3734,22 @@
         "lib/net35/SeleniumExtras.PageObjects.dll",
         "lib/net40/SeleniumExtras.PageObjects.dll",
         "lib/net45/SeleniumExtras.PageObjects.dll",
+        "lib/netstandard2.0/SeleniumExtras.PageObjects.dll"
+      ]
+    },
+    "DotNetSeleniumExtras.PageObjects.Core/4.14.1": {
+      "sha512": "LwKjGyJKwaGO0pmPaWx0kOtJoDiKKYMpundXF3AwqqBcOI86gumvUpjqq/giL8zatUXdecL89wb0U/KZh03p7g==",
+      "type": "package",
+      "path": "dotnetseleniumextras.pageobjects.core/4.14.1",
+      "files": [
+        ".nupkg.metadata",
+        ".signature.p7s",
+        "LICENSE",
+        "README.md",
+        "dotnetseleniumextras.pageobjects.core.4.14.1.nupkg.sha512",
+        "dotnetseleniumextras.pageobjects.core.nuspec",
+        "lib/net462/SeleniumExtras.PageObjects.dll",
+        "lib/net6.0/SeleniumExtras.PageObjects.dll",
         "lib/netstandard2.0/SeleniumExtras.PageObjects.dll"
       ]
     },
@@ -5184,17 +5240,16 @@
         "packageIcon.png"
       ]
     },
-    "NUnit/3.14.0": {
-      "sha512": "R7iPwD7kbOaP3o2zldWJbWeMQAvDKD0uld27QvA3PAALl1unl7x0v2J7eGiJOYjimV/BuGT4VJmr45RjS7z4LA==",
+    "NUnit/3.13.3": {
+      "sha512": "KNPDpls6EfHwC3+nnA67fh5wpxeLb3VLFAfLxrug6JMYDLHH6InaQIWR7Sc3y75d/9IKzMksH/gi08W7XWbmnQ==",
       "type": "package",
-      "path": "nunit/3.14.0",
+      "path": "nunit/3.13.3",
       "files": [
         ".nupkg.metadata",
         ".signature.p7s",
         "CHANGES.md",
         "LICENSE.txt",
         "NOTICES.txt",
-        "README.md",
         "build/NUnit.props",
         "icon.png",
         "lib/net35/nunit.framework.dll",
@@ -5205,7 +5260,7 @@
         "lib/net45/nunit.framework.xml",
         "lib/netstandard2.0/nunit.framework.dll",
         "lib/netstandard2.0/nunit.framework.xml",
-        "nunit.3.14.0.nupkg.sha512",
+        "nunit.3.13.3.nupkg.sha512",
         "nunit.nuspec"
       ]
     },
@@ -5691,6 +5746,21 @@
         "runtime.ubuntu.16.10-x64.runtime.native.system.security.cryptography.openssl.4.3.2.nupkg.sha512",
         "runtime.ubuntu.16.10-x64.runtime.native.system.security.cryptography.openssl.nuspec",
         "runtimes/ubuntu.16.10-x64/native/System.Security.Cryptography.Native.OpenSsl.so"
+      ]
+    },
+    "Selenium.Community.PageObjects/1.0.0": {
+      "sha512": "E1JNFGZSeE+y6Gs90KjsgGCzu7z5ALU3d+HaKeMmPbhJzxo6BasVpQlZ71bTiwkqH+gtOLtujpIHGM3EWxzw8Q==",
+      "type": "package",
+      "path": "selenium.community.pageobjects/1.0.0",
+      "files": [
+        ".nupkg.metadata",
+        ".signature.p7s",
+        "lib/net46/Selenium.Community.PageObjects.dll",
+        "lib/net46/Selenium.Community.PageObjects.xml",
+        "lib/netstandard2.0/Selenium.Community.PageObjects.dll",
+        "lib/netstandard2.0/Selenium.Community.PageObjects.xml",
+        "selenium.community.pageobjects.1.0.0.nupkg.sha512",
+        "selenium.community.pageobjects.nuspec"
       ]
     },
     "Selenium.Firefox.WebDriver/0.27.0": {
@@ -7938,6 +8008,55 @@
         "ref/xamarinwatchos10/_._",
         "system.reflection.4.3.0.nupkg.sha512",
         "system.reflection.nuspec"
+      ]
+    },
+    "System.Reflection.DispatchProxy/4.5.1": {
+      "sha512": "FsYDYPmR2coa1BCo9mquY5A1hy5RSQq7ZJH3qaMoy3lCTUMZvB4lEFqX1i4XQINVjda4e7p2PN1DHk8AV3wfXw==",
+      "type": "package",
+      "path": "system.reflection.dispatchproxy/4.5.1",
+      "files": [
+        ".nupkg.metadata",
+        ".signature.p7s",
+        "LICENSE.TXT",
+        "THIRD-PARTY-NOTICES.TXT",
+        "lib/MonoAndroid10/_._",
+        "lib/MonoTouch10/_._",
+        "lib/net461/System.Reflection.DispatchProxy.dll",
+        "lib/netcoreapp2.0/System.Reflection.DispatchProxy.dll",
+        "lib/netstandard1.3/System.Reflection.DispatchProxy.dll",
+        "lib/netstandard2.0/System.Reflection.DispatchProxy.dll",
+        "lib/xamarinios10/_._",
+        "lib/xamarinmac20/_._",
+        "lib/xamarintvos10/_._",
+        "lib/xamarinwatchos10/_._",
+        "ref/MonoAndroid10/_._",
+        "ref/MonoTouch10/_._",
+        "ref/netstandard1.3/System.Reflection.DispatchProxy.dll",
+        "ref/netstandard1.3/System.Reflection.DispatchProxy.xml",
+        "ref/netstandard1.3/de/System.Reflection.DispatchProxy.xml",
+        "ref/netstandard1.3/es/System.Reflection.DispatchProxy.xml",
+        "ref/netstandard1.3/fr/System.Reflection.DispatchProxy.xml",
+        "ref/netstandard1.3/it/System.Reflection.DispatchProxy.xml",
+        "ref/netstandard1.3/ja/System.Reflection.DispatchProxy.xml",
+        "ref/netstandard1.3/ko/System.Reflection.DispatchProxy.xml",
+        "ref/netstandard1.3/ru/System.Reflection.DispatchProxy.xml",
+        "ref/netstandard1.3/zh-hans/System.Reflection.DispatchProxy.xml",
+        "ref/netstandard1.3/zh-hant/System.Reflection.DispatchProxy.xml",
+        "ref/netstandard2.0/System.Reflection.DispatchProxy.dll",
+        "ref/netstandard2.0/System.Reflection.DispatchProxy.xml",
+        "ref/uap10.0.16299/System.Reflection.DispatchProxy.dll",
+        "ref/uap10.0.16299/System.Reflection.DispatchProxy.xml",
+        "ref/xamarinios10/_._",
+        "ref/xamarinmac20/_._",
+        "ref/xamarintvos10/_._",
+        "ref/xamarinwatchos10/_._",
+        "runtimes/aot/lib/netcore50/System.Reflection.DispatchProxy.dll",
+        "runtimes/win-aot/lib/uap10.0.16299/System.Reflection.DispatchProxy.dll",
+        "runtimes/win/lib/uap10.0.16299/System.Reflection.DispatchProxy.dll",
+        "system.reflection.dispatchproxy.4.5.1.nupkg.sha512",
+        "system.reflection.dispatchproxy.nuspec",
+        "useSharedDesignerContext.txt",
+        "version.txt"
       ]
     },
     "System.Reflection.Emit/4.3.0": {
@@ -10224,11 +10343,13 @@
   "projectFileDependencyGroups": {
     "net8.0": [
       "DotNetSeleniumExtras.PageObjects >= 3.11.0",
+      "DotNetSeleniumExtras.PageObjects.Core >= 4.14.1",
       "DotNetSeleniumExtras.WaitHelpers >= 3.11.0",
       "ExtentReports >= 4.1.0",
       "Microsoft.NET.Test.Sdk >= 17.10.0",
       "NUnit3TestAdapter >= 4.5.0",
       "Reqnroll.NUnit >= 2.2.1",
+      "Selenium.Community.PageObjects >= 1.0.0",
       "Selenium.Firefox.WebDriver >= 0.27.0",
       "Selenium.Support >= 4.37.0",
       "Selenium.WebDriver >= 4.37.0",
@@ -10237,7 +10358,7 @@
       "SeleniumExtras.WaitHelpers >= 1.0.2",
       "System.IO >= 4.3.0",
       "System.IO.FileSystem.Primitives >= 4.3.0",
-      "nunit >= 3.14.0"
+      "nunit >= 3.13.3"
     ]
   },
   "packageFolders": {
@@ -10294,6 +10415,10 @@
             "target": "Package",
             "version": "[3.11.0, )"
           },
+          "DotNetSeleniumExtras.PageObjects.Core": {
+            "target": "Package",
+            "version": "[4.14.1, )"
+          },
           "DotNetSeleniumExtras.WaitHelpers": {
             "target": "Package",
             "version": "[3.11.0, )"
@@ -10313,6 +10438,10 @@
           "Reqnroll.NUnit": {
             "target": "Package",
             "version": "[2.2.1, )"
+          },
+          "Selenium.Community.PageObjects": {
+            "target": "Package",
+            "version": "[1.0.0, )"
           },
           "Selenium.Firefox.WebDriver": {
             "target": "Package",
@@ -10348,7 +10477,7 @@
           },
           "nunit": {
             "target": "Package",
-            "version": "[3.14.0, )"
+            "version": "[3.13.3, )"
           }
         },
         "imports": [

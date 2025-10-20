@@ -171,9 +171,11 @@ C:\Users\soura\source\repos\ReqnrollProject\obj\Debug\net8.0\ReqnrollProject.Gen
 C:\Users\soura\source\repos\ReqnrollProject\obj\Debug\net8.0\ReqnrollProject.AssemblyInfoInputs.cache
 C:\Users\soura\source\repos\ReqnrollProject\obj\Debug\net8.0\ReqnrollProject.AssemblyInfo.cs
 C:\Users\soura\source\repos\ReqnrollProject\obj\Debug\net8.0\ReqnrollProject.csproj.CoreCompileInputs.cache
+C:\Users\soura\source\repos\ReqnrollProject\obj\Debug\net8.0\ReqnrollProject.sourcelink.json
 C:\Users\soura\source\repos\ReqnrollProject\obj\Debug\net8.0\Reqnroll.2C8AD7C8.Up2Date
 C:\Users\soura\source\repos\ReqnrollProject\obj\Debug\net8.0\ReqnrollProject.dll
 C:\Users\soura\source\repos\ReqnrollProject\obj\Debug\net8.0\refint\ReqnrollProject.dll
 C:\Users\soura\source\repos\ReqnrollProject\obj\Debug\net8.0\ReqnrollProject.pdb
 C:\Users\soura\source\repos\ReqnrollProject\obj\Debug\net8.0\ReqnrollProject.genruntimeconfig.cache
 C:\Users\soura\source\repos\ReqnrollProject\obj\Debug\net8.0\ref\ReqnrollProject.dll
+C:\Users\soura\source\repos\ReqnrollProject\bin\Debug\net8.0\Selenium.Community.PageObjects.dll
